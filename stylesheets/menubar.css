@@ -17,3 +17,30 @@
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
 }
+
+body.landing .menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+  z-index: 1;
+}
+
+body.landing .menubar div {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 1180px) {
+  .menubar div {
+    height: 60px;
+  }
+
+  .logo {
+    width: 88px;
+    height: 25px;
+  }
+}
