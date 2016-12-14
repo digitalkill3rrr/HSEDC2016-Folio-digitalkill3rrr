@@ -95,10 +95,7 @@ body.landing * {
 .mainSection.left section {
   top: 189px;
   left: 159px;
-}
-
-.mainSection.left p {
-  color: #999999;
+  color: #323332;
 }
 
 .mainSection.right section {
@@ -383,4 +380,11 @@ body.landing * {
     width: 760px;
     height: 403px;
   }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1, #mockup2 { background-image: url(../images/about-@2x.png); }
+  #mockup2b { background-image: url(../images/works-@2x.png); }
+  #mockup2c { background-image: url(../images/work-@2x.png); }
+  #mockup3 { background-image: url(../images/screen-@2x.png); }
 }
