@@ -33,14 +33,6 @@ body.landing * {
   background-color: white;
 }
 
-.compact {
-  display: none;
-}
-
-.full {
-  display: block;
-}
-
 .mainSection {
   position: relative;
   width: 1440px;
@@ -386,5 +378,5 @@ body.landing * {
   #mockup1, #mockup2 { background-image: url(../images/about-@2x.png); }
   #mockup2b { background-image: url(../images/works-@2x.png); }
   #mockup2c { background-image: url(../images/work-@2x.png); }
-  #mockup3 { background-image: url(../images/screen-@2x.png); }
+  #mockup3 { background-image: url(../images/screens-@2x.png); }
 }
