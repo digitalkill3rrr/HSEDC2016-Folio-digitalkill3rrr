@@ -5,20 +5,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body.landing {
-  /*background-image: url(../images/1440.png);*/
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-color: #FAFAFA;
+* {
+  box-sizing: border-box;
 }
 
 body.landing * {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .landingWrapper {
@@ -78,12 +71,6 @@ body.landing * {
   width: 580px;
 }
 
-.mainSection.center section {
-  top: 189px;
-  left: -26px;
-  width: 100%;
-}
-
 .mainSection.left section {
   top: 189px;
   left: 159px;
@@ -93,6 +80,12 @@ body.landing * {
 .mainSection.right section {
   top: 189px;
   right: 61px;
+}
+
+.mainSection.center section {
+  top: 189px;
+  left: -26px;
+  width: 100%;
 }
 
 .mainSection section figure {
@@ -193,7 +186,6 @@ body.landing * {
 @media screen and (max-width: 1179px) {
 
   body.landing {
-    /*background-image: url(../images/>1180.png);*/
   }
 
   .mainSection {
@@ -210,20 +202,6 @@ body.landing * {
     margin: 19px 0px;
     font-size: 16px;
     line-height: 26px;
-  }
-
-  .mainSection.center section {
-    top: 135px;
-    left: 4px;
-  }
-
-  .mainSection.center h2 {
-    font-size: 30px;
-    line-height: 39px;
-  }
-
-  .mainSection.center p {
-    margin: 19px 0 0 -1px;
   }
 
   .mainSection section figure {
@@ -243,6 +221,20 @@ body.landing * {
   .mainSection.left section figure,
   .mainSection.right section figure {
     margin-top: 43px;
+  }
+
+  .mainSection.center section {
+    top: 135px;
+    left: 4px;
+  }
+
+  .mainSection.center h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection.center p {
+    margin: 19px 0 0 -1px;
   }
 
   .mainSection.center section nav {
@@ -301,16 +293,11 @@ body.landing * {
 @media screen and (max-width: 840px) {
 
   body.landing {
-    /*background-image: url(../images/>840.png);*/
   }
 
   .mainSection {
     width: 840px;
     height: 1024px;
-  }
-
-  .mainSection.center section {
-    top: 185px;
   }
 
   .mainSection.left section {
@@ -319,6 +306,10 @@ body.landing * {
 
   .mainSection.right section {
     right: -87px;
+  }
+
+  .mainSection.center section {
+    top: 185px;
   }
 
   .mainSection.center section nav {
