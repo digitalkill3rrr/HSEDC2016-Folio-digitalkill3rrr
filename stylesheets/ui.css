@@ -25,11 +25,11 @@
 }
 
 @media screen and (max-width: 1179px) {
-
   .link {
     font-size: 11px;
     line-height: 4px;
   }
+
   .shape {
     width: 214px;
     height: 36px;
